@@ -1,0 +1,37 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "curo de creacion de una api rest y migracion a GQL e implementacion de apollo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@GitHub:OrcaPracticas/api-rest.git"
+  },
+  "keywords": [
+    "ApiRest",
+    "GraphQL",
+    "Apollo",
+    "Mongo",
+    "Mongoose",
+    "Heroku",
+    "JavaScript",
+    "Pokemon"
+  ],
+  "author": "Jorge Mendez Ortega <jorge.mendez.ortega@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^5.1.3",
+    "standard-version": "^9.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
